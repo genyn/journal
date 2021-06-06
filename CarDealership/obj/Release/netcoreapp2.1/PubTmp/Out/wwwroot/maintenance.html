@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Админ-панель</title>
+    <link href="css/adminStyles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="maintenance.html">Записи в сервис</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" onclick="logOff()">Выход</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div>
+            <label>Период: </label>
+
+            <select id="selPeriod">
+                <option value="1">За текущую неделю</option>
+                <option value="2">За последний месяц</option>
+                <option value="3">За последний год</option>
+                <option value="4">За все время</option>
+            </select>
+        </div>
+        <div class="row mt-4">
+
+            <div class="col-md-12" id="tableMaintenance">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/js/logIn.js"></script>
+    <script src="/js/maintenance.js"></script>
+</body>
+</html>

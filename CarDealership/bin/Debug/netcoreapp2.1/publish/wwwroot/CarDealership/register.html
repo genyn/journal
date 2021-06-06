@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center head">
+        <img class="img-fluid headimage" src="images/reg2.jpg">
+        <div class="headtext">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Audi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="vehiclesInStock.html">В наличии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config.html">Конфигуратор</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Мир Audi</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Вход</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Регистрация нового пользователя</h2>
+        <div class="msg-error">
+            <div id="msg"></div>
+            <ul id="formError"></ul>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">ФИО: </label>
+                <input type="text" class="form-control" id="name" placeholder="Введите ФИО" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" class="form-control" id="email" placeholder="Введите почту" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль: </label>
+                <input type="password" class="form-control" id="password" placeholder="Введите пароль" name="password">
+            </div>
+            <div class="form-group">
+                <label for="passwordConfirm">Подтверждение пароля: </label>
+                <input type="password" class="form-control" id="passwordConfirm" placeholder="Подтвердите пароль" name="passwordConfirm">
+            </div>
+        </form>
+        <button class="btn btn-primary" id="registerBtn">Регистрация</button>
+    </div>
+
+    <script src="/js/register.js"></script>
+
+    <div class="jumbotron text-center footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+﻿.container {
+    margin-top: 30px;
+}
+
+.childcontainer {
+    margin-top: 0px !important;
+}
+
+.listEl {
+    margin-top: 20px;
+}
+
+.panel-body {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    background-color: #a5a8ab!important;
+}
+
+.innerBtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.head {
+    padding: 0px !important;
+}
+
+.headimage {
+    opacity: 0.8;
+    position: relative;
+}
+
+.headtext h2 {
+    position: absolute;
+    top: 40px;
+    padding-left: 50px;
+    width: 100%;
+    text-align: initial;
+    font-family: sans-serif;
+    color: black;
+}
+
+.headtext h3 {
+    position: absolute;
+    top: 80px;
+    padding-left: 50px;
+    width: 100%;
+    text-align: initial;
+    font-family: sans-serif;
+    color: black;
+}
+
+.btn-add {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.scroll {
+    height: 200px; /* высота нашего блока */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-y: scroll; /* прокрутка по вертикали */
+}
+
+b {
+    font-weight:600 !important;
+}
+
+.lblprice{
+    margin-left: 20px;
+}
+
+select {
+    position: relative;
+    display: block;
+    width: 100%; /* от ширины блока div */
+    padding: .75rem 2.5rem .75rem 1rem; /* отступы от текста до рамки */
+    background: none; /* убираем фон */
+    border: 1px solid #ccc; /* рамка */
+    border-radius: 3px; /* скругление полей формы */
+    font-size: 1rem;
+    color: #444;
+}
+
+@media (max-width: 768px){
+    .headtext h2 {
+        font-size: 20px!important;
+    }
+
+    .headtext h3 {
+        font-size: 15px!important;
+    }
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.footer-bs {
+    background-color: #8b8b8b;
+    padding: 60px 40px;
+    color: rgba(255,255,255,1.00);
+    margin-top: 100px;
+}
+
+    .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+        padding: 10px 25px;
+    }
+
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+        border-color: transparent;
+    }
+
+    .footer-bs .footer-brand h2 {
+        margin: 0px 0px 10px;
+    }
+
+    .footer-bs .footer-brand p {
+        font-size: 12px;
+        color: rgba(255,255,255,0.70);
+    }
+
+    .footer-bs .footer-nav ul.pages {
+        list-style: none;
+        padding: 0px;
+    }
+
+        .footer-bs .footer-nav ul.pages li {
+            padding: 5px 0px;
+        }
+
+        .footer-bs .footer-nav ul.pages a {
+            color: rgba(255,255,255,1.00);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+            .footer-bs .footer-nav ul.pages a:hover {
+                color: rgba(255,255,255,0.80);
+                text-decoration: none;
+            }
+
+    .footer-bs .footer-nav h4 {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+
+    .footer-bs .footer-nav ul.list {
+        list-style: none;
+        padding: 0px;
+    }
+
+        .footer-bs .footer-nav ul.list li {
+            padding: 5px 0px;
+        }
+
+        .footer-bs .footer-nav ul.list a {
+            color: rgba(255,255,255,0.80);
+        }
+
+            .footer-bs .footer-nav ul.list a:hover {
+                color: rgba(255,255,255,0.60);
+                text-decoration: none;
+            }
+
+    .footer-bs .footer-social ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .footer-bs .footer-social h4 {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .footer-bs .footer-social li {
+        padding: 5px 4px;
+    }
+
+    .footer-bs .footer-social a {
+        color: rgba(255,255,255,1.00);
+    }
+
+        .footer-bs .footer-social a:hover {
+            color: rgba(255,255,255,0.80);
+            text-decoration: none;
+        }
+
+    .footer-bs .footer-ns h4 {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+
+    .footer-bs .footer-ns p {
+        font-size: 12px;
+        color: rgba(255,255,255,0.70);
+    }
+
+@media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+        border-left: solid 1px rgba(255,255,255,0.10);
+    }
+}

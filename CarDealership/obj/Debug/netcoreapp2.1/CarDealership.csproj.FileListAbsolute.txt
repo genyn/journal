@@ -1,0 +1,71 @@
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.deps.json
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.json
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.dll
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.pdb
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.dll
+C:\Users\1\source\repos\Новая папка\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.deps.json
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.json
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\SaDblK\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.deps.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache
+D:\3 Курс\2\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\libwkhtmltox.dll
+D:\3 Курс\3\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.deps.json
+D:\3 Курс\3\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.json
+D:\3 Курс\3\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+D:\3 Курс\3\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\3\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\3\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.pdb
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.dll
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.pdb
+C:\Users\Ира\Desktop\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.deps.json
+C:\Users\Ира\Desktop\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.json
+C:\Users\Ира\Desktop\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+C:\Users\Ира\Desktop\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.dll
+C:\Users\Ира\Desktop\CarDealership\CarDealership\bin\Debug\netcoreapp2.1\CarDealership.pdb
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+C:\Users\Ира\Desktop\CarDealership\CarDealership\obj\Debug\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache

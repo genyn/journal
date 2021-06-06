@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CarDealership</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center head">
+        <img class="img-fluid headimage" src="images/head2.jpg">
+        <div class="headtext">
+            <h2>Новый RS6</h2>
+            <h3>Высшая лига скорости</h3>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Audi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="vehiclesInStock.html">В наличии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="config.html">Конфигуратор</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Мир Audi</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav" id="logIn"></ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Выбор модели</h4>
+            </div>
+            <div id="divModel" class="card-body">
+            </div>
+        </div>
+
+        <div id="vehiclesDiv"> </div>
+
+        <div class="modal fade" id="logInModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Вход</h4>
+                        <button type="button" class="close" onclick="clearLogIn();" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div id="msg"></div>
+                            <ul id="formError"></ul>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Пароль:</label>
+                                <input type="password" class="form-control" id="Password">
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" id="Remember" type="checkbox"> Запомнить
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" onclick="logIn();">Войти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="viewModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Подробнее</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body" id="divViewBody">
+                    </div>
+
+                    <div class="modal-footer" id="divViewFoot">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dealReqModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Запрос дилеру</h4>
+                        <button type="button" class="close" onclick="DealerReqModal.clear();" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body" id="divReqBody">
+                    </div>
+
+                    <div class="modal-footer" id="divReqFoot">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/vehiclesInStock.js"></script>
+    <script src="/js/logIn.js"></script>
+
+    <footer class="footer-bs">
+        <div class="row">
+            <div class="col-md-4 footer-brand animated fadeInLeft">
+                <img class="logo" src="images/Audi-Logo-3D-Model.jpg" width="325" height="150">
+                <p>© 2020 AUDI AG. Все права защищены</p>
+            </div>
+            <div class="col-md-4 footer-nav animated fadeInUp">
+                <h4>Menu —</h4>
+                <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#">Audi</a></li>
+                        <li><a href="vehiclesInStock.html">В наличии</a></li>
+                        <li><a href="config.html">Конфигуратор</a></li>
+                        <li><a href="#">Мир Audi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 footer-social animated fadeInDown">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">VK</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>

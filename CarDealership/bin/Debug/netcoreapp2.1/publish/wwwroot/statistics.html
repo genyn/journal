@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Админ-панель</title>
+    <link href="css/adminStyles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="models.html">Модели</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="options.html">Дополнительные услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modelOptions.html">Услуги моделей</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="notification.html">Обратная связь</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="statistics.html">Статистика</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" onclick="logOff()">Выход</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Данные по одному ДЦ</h4>
+            </div>
+
+            <div class="card-body">
+                <div id="filter" class="row mb-3">
+                    <div class="col-md-6">
+                        <div id="stat1_years">
+
+                        </div>
+
+                        <div id="stat1_dealers">
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" id="stat1_variants">
+
+                    </div>
+                </div>
+
+                <div id="stat1" style="width: 100%; height: 600px;"></div>
+            </div>
+        </div>
+
+        <div class="card mt-5">
+            <div class="card-header">
+                <h4 class="card-title">Сравнение ДЦ</h4>
+            </div>
+
+            <div class="card-body">
+                <div id="filter" class="row mb-3">
+                    <div class="col-md-4">
+                        <div id="stat2_years1">
+
+                        </div>
+
+                        <div id="stat2_dealers1">
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div id="stat2_years2">
+
+                        </div>
+
+                        <div id="stat2_dealers2">
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" id="stat2_variants">
+
+                    </div>
+                </div>
+
+                <div id="stat2" style="width: 100%; height: 600px;"></div>
+            </div>
+        </div>
+
+        <div class="card mt-5">
+            <div class="card-header">
+                <h4 class="card-title">Данные по всем ДЦ</h4>
+            </div>
+
+            <div class="card-body">
+                <div id="filter" class="row mb-3">
+                    <div class="col-md-6" id="stat3_years">
+
+                    </div>
+
+                    <div class="col-md-6" id="stat3_variants">
+
+                    </div>
+                </div>
+
+                <div id="stat3" style="width: 100%; height: 600px;"></div>
+            </div>
+        </div>
+
+        <div class="card my-5">
+            <div class="card-header">
+                <h4 class="card-title">Данные по моделям</h4>
+            </div>
+
+            <div class="card-body">
+                <div id="filter" class="mb-3">
+                    <div id="stat4_years">
+
+                    </div>
+                </div>
+
+                <div id="stat4" style="width: 100%; height: 600px;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/logIn.js"></script>
+    <script src="/js/statistics.js"></script>
+</body>
+</html>

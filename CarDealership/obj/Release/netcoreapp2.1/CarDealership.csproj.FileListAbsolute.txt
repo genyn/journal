@@ -1,0 +1,15 @@
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\CarDealership.deps.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\CarDealership.runtimeconfig.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\CarDealership.runtimeconfig.dev.json
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.csprojAssemblyReference.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.csproj.CoreCompileInputs.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.RazorAssemblyInfo.cs
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.AssemblyInfoInputs.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.AssemblyInfo.cs
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.RazorTargetAssemblyInfo.cache
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.dll
+D:\3 Курс\2\CarDealership\CarDealership\obj\Release\netcoreapp2.1\CarDealership.pdb
+D:\3 Курс\2\CarDealership\CarDealership\bin\Release\netcoreapp2.1\libwkhtmltox.dll
